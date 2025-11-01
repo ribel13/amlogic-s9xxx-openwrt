@@ -174,21 +174,20 @@ rebuild_firmware() {
 
     # Selecting default packages, lib, theme, app and i18n, etc.
     my_packages="\
-        acpid attr base-files bash bc blkid block-mount blockd bsdtar btrfs-progs busybox bzip2 \
-        cgi-io chattr comgt comgt-ncm containerd coremark coreutils coreutils-base64 coreutils-nohup \
-        coreutils-truncate curl docker docker-compose dockerd dosfstools dumpe2fs e2freefrag e2fsprogs \
-        exfat-mkfs f2fs-tools f2fsck fdisk gawk getopt git gzip hostapd-common iconv iw iwinfo jq \
-        jshn kmod-brcmfmac kmod-brcmutil kmod-cfg80211 kmod-mac80211 libjson-script liblucihttp \
-        liblucihttp-lua losetup lsattr lsblk lscpu mkf2fs mount-utils openssl-util parted \
-        perl-http-date perlbase-file perlbase-getopt perlbase-time perlbase-unicode perlbase-utf8 \
-        pigz ppp ppp-mod-pppoe pv rename resize2fs runc tar tini ttyd tune2fs \
-        uclient-fetch uhttpd uhttpd-mod-ubus unzip uqmi usb-modeswitch uuidgen wget-ssl whereis \
-        which wpad-basic wwan xfs-fsck xfs-mkfs xz xz-utils ziptool zoneinfo-asia zoneinfo-core zstd \
+        luci-theme-bootstrap dnsmasq-full cgi-io liblua liblucihttp liblucihttp-lua libubus-lua lua luci \ 
+        luci-app-firewall luci luci-app-opkg luci-base luci-lib-base luci-lib-ip luci-lib-jsonc luci-lib-nixio \
+        luci-mod-admin-full luci-mod-network luci-mod-status luci-mod-system luci-proto-ipv6 luci-proto-ppp \
+        luci-ssl luci-theme-material rpcd rpcd-mod-file rpcd-mod-iwinfo rpcd-mod-luci rpcd-mod-rrdns uhttpd \
+        uhttpd-mod-ubus luci-compat btrfs-progs hostapd hostapd-utils kmod-crypto-acompress kmod-crypto-crc32c \
+        kmod-crypto-hash kmod-fs-btrfs wpa-cli wpa-supplicant libc php8 php8-cgi php8-mod-session \
+        php8-mod-ctype php8-mod-fileinfo php8-mod-zip php8-mod-iconv php8-mod-mbstrin zoneinfo-core \
+        zoneinfo-asia nano htop unzip wget wget-ssl libmbedtls tar bash netdata httping coreutils-timeout \
+        kmod-usb-net-rndis iperf3 usbutils kmod-usb-net-cdc-ether usb-modeswitch openssh-sftp-server kmod-usb2 \
+        kmod-usb-net-huawei-cdc-ncm kmod-usb-serial-wwan perlbase-file kmod-brcmutil perlbase-essential \
+        perlbase-utf8 perlbase-file  perlbase-time perlbase-xsloader coreutils-stat sudo luci-app-ttyd \
+        luci-app-amlogic luci-app-diskman luci-compat luci-lib-ipkg luci-proto-ipip \
         \
-        luci luci-base luci-compat luci-i18n-base-zh-cn luci-lib-base luci-lib-docker \
-        luci-lib-ip luci-lib-ipkg luci-lib-jsonc luci-lib-nixio luci-mod-admin-full luci-mod-network \
-        luci-mod-status luci-mod-system luci-proto-3g luci-proto-ipip luci-proto-ipv6 \
-        luci-proto-ncm luci-proto-openconnect luci-proto-ppp luci-proto-qmi luci-proto-relay \
+        luci-mod-status luci-mod-system luci-proto-3g luci-proto-ncm luci-proto-qmi luci-proto-relay \
         \
         luci-app-amlogic luci-i18n-amlogic-zh-cn \
         \
