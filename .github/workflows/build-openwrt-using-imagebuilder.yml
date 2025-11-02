@@ -241,7 +241,7 @@ on:
         options:
           - ophub
           - angel
-          - ribel
+          - freedom
 
 env:
   TZ: Etc/UTC
