@@ -185,14 +185,13 @@ rebuild_firmware() {
         uclient-fetch uhttpd uhttpd-mod-ubus unzip uqmi usb-modeswitch uuidgen wget-ssl whereis \
         which wpad-basic wwan xfs-fsck xfs-mkfs xz xz-utils ziptool zoneinfo-asia zoneinfo-core \
         \
-        luci luci-base luci-compat luci-i18n-base-zh-cn luci-lib-base \
+        luci luci-base luci-compat luci-i18n-base-zh-cn luci-lib-base kmod-usb-net-huawei-cdc-ncm \
         luci-lib-ip luci-lib-ipkg luci-lib-jsonc luci-lib-nixio luci-mod-admin-full luci-mod-network \
         luci-mod-status luci-mod-system luci-proto-3g luci-proto-ipip luci-proto-ipv6 \
         luci-proto-ncm luci-proto-openconnect luci-proto-ppp luci-proto-qmi luci-proto-relay \
         kmod-mii kmod-usb-net kmod-usb-wdm kmod-usb-net-qmi-wwan luci-proto-qmi kmod-usb-net-cdc-ether \
         kmod-usb-serial-option kmod-usb-serial kmod-usb-serial-wwan qmi-utils kmod-usb-serial-qualcomm \
         kmod-usb-acm kmod-usb-net-cdc-ncm kmod-usb-net-cdc-mbim umbim modemmanager luci-proto-modemmanager \
-        kmod-usb-net-huawei-cdc-ncm
         \
         luci-app-amlogic luci-i18n-amlogic-zh-cn \
         \
