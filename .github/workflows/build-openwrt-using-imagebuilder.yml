@@ -258,7 +258,7 @@ jobs:
             - Default IP: 192.168.1.1
             - Default username: root
             - Default password: root
-            - Default WIFI name: Freedom-Wrt
+            - Default WIFI name: FreedomWrt
             - Default WIFI password: none
             ### Install to EMMC
             - Login to OpenWrt → System → Amlogic Service → Install OpenWrt
