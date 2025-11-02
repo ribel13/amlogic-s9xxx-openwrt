@@ -180,14 +180,14 @@ rebuild_firmware() {
         luci-ssl luci-theme-material rpcd rpcd-mod-file rpcd-mod-iwinfo rpcd-mod-luci rpcd-mod-rrdns uhttpd \
         uhttpd-mod-ubus luci-compat btrfs-progs hostapd hostapd-utils kmod-crypto-acompress kmod-crypto-crc32c \
         kmod-crypto-hash kmod-fs-btrfs wpa-cli wpa-supplicant libc php8 php8-cgi php8-mod-session \
-        php8-mod-ctype php8-mod-fileinfo php8-mod-zip php8-mod-iconv php8-mod-mbstrin zoneinfo-core \
+        php8-mod-ctype php8-mod-fileinfo php8-mod-zip php8-mod-iconv php8-mod-mbstring zoneinfo-core \
         /
         zoneinfo-asia nano htop unzip wget wget-ssl libmbedtls tar bash netdata httping coreutils-timeout \
         kmod-usb-net-rndis iperf3 usbutils kmod-usb-net-cdc-ether usb-modeswitch openssh-sftp-server kmod-usb2 \
         kmod-usb-net-huawei-cdc-ncm kmod-usb-serial-wwan perlbase-file kmod-brcmutil perlbase-essential \
-        perlbase-utf8 perlbase-file  perlbase-time perlbase-xsloader coreutils-stat sudo luci-app-ttyd \
+        perlbase-utf8 perlbase-file perlbase-time perlbase-xsloader coreutils-stat luci-app-ttyd \
         luci-app-amlogic luci-app-diskman luci-compat luci-lib-ipkg luci-proto-ipip luci-proto-3g /
-        luci-proto-ncm luci-proto-qmi luci-proto-relay luci-i18n-amlogic-zh-cn \
+        luci-proto-ncm luci-proto-qmi luci-proto-relay \
         \
         ${config_list} \
         "
