@@ -97,7 +97,7 @@ on:
         type: choice
         options:
           - -ophub
-          - -yourname
+          - -ribel
 
 env:
   TZ: Etc/UTC
