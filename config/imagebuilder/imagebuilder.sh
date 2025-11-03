@@ -176,7 +176,7 @@ rebuild_firmware() {
     my_packages="\
         base-files bash bc blkid block-mount btrfs-progs busybox bzip2 \
         cgi-io comgt comgt-ncm coreutils coreutils-base64 coreutils-nohup nano htop \
-        curl dosfstools e2fsprogs exfat-mkfs f2fs-tools f2fsck fdisk gawk wpad-basic \
+        curl dosfstools e2fsprogs exfat-mkfs f2fs-tools f2fsck fdisk gawk wpa-supplicant \
         git gzip hostapd-common iconv iw iwinfo jq jshn kmod-brcmfmac kmod-brcmutil \
         kmod-cfg80211 kmod-mac80211 libjson-script liblucihttp liblucihttp-lua \
         losetup lsblk lscpu mkf2fs mount-utils openssl-util parted perlbase-time \
