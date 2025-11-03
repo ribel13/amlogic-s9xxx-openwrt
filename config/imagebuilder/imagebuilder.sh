@@ -174,7 +174,7 @@ rebuild_firmware() {
 
     # Selecting default packages, lib, theme, app and i18n, etc.
     my_packages="\
-        base-files dnsmasq-full bash bc blkid block-mount btrfs-progs busybox bzip2 \
+        base-files bash bc blkid block-mount btrfs-progs busybox bzip2 \
         cgi-io comgt comgt-ncm coreutils coreutils-base64 coreutils-nohup nano htop \
         curl dosfstools e2fsprogs exfat-mkfs f2fs-tools f2fsck fdisk gawk wpa-supplicant \
         git gzip hostapd-common iconv iw iwinfo jq jshn kmod-brcmfmac kmod-brcmutil \
