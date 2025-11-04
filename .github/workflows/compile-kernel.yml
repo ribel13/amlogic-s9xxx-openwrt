@@ -19,6 +19,7 @@ on:
           - unifreq
           - codesnas
           - https://github.com/ribel13/linux-6.6.y
+          - https://github.com/ribel13/linux-6.1.66
       kernel_version:
         description: "Select kernel version"
         required: false
