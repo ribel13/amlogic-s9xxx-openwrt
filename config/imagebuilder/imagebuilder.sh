@@ -174,11 +174,11 @@ rebuild_firmware() {
 
     # Selecting default packages, lib, theme, app and i18n, etc.
     my_packages="\
-        base-files bash bc blkid block-mount btrfs-progs busybox bzip2 \
+        base-files bash bc blkid block-mount btrfs-progs busybox bzip2 ip-full libc \
         cgi-io comgt comgt-ncm coreutils coreutils-base64 coreutils-nohup nano htop \
         curl dosfstools e2fsprogs exfat-mkfs f2fs-tools f2fsck fdisk gawk wpa-supplicant \
         git gzip hostapd-common iconv iw iwinfo jq jshn kmod-brcmfmac kmod-brcmutil \
-        kmod-cfg80211 kmod-mac80211 libjson-script liblucihttp liblucihttp-lua \
+        kmod-cfg80211 kmod-mac80211 libjson-script liblucihttp liblucihttp-lua ca-bundle \
         losetup lsblk lscpu mkf2fs mount-utils openssl-util parted perlbase-time \
         perl-http-date perlbase-file perlbase-getopt perlbase-unicode perlbase-utf8 fping \
         ppp ppp-mod-pppoe pv ntfs-3g tar ttyd kmod-usb2 kmod-usb-net-rndis wwan httping \
@@ -188,8 +188,8 @@ rebuild_firmware() {
         \
         luci luci-base luci-compat luci-i18n-base-zh-cn luci-lib-base kmod-usb-net-huawei-cdc-ncm \
         luci-lib-ip luci-lib-ipkg luci-lib-jsonc luci-lib-nixio luci-mod-admin-full luci-mod-network \
-        luci-mod-status luci-mod-system luci-proto-3g luci-proto-ipv6 \
-        luci-proto-ncm luci-proto-ppp luci-proto-qmi luci-proto-relay screen \
+        luci-mod-status luci-mod-system luci-proto-3g luci-proto-ipv6 netdata vnstat2 vnstati2 \
+        luci-proto-ncm luci-proto-ppp luci-proto-qmi screen ruby ruby-yaml kmod-tun \
         kmod-mii kmod-usb-net kmod-usb-wdm kmod-usb-net-qmi-wwan luci-proto-qmi kmod-usb-net-cdc-ether \
         kmod-usb-serial-option kmod-usb-serial kmod-usb-serial-wwan qmi-utils kmod-usb-serial-qualcomm \
         kmod-usb-acm kmod-usb-net-cdc-ncm kmod-usb-net-cdc-mbim umbim modemmanager luci-proto-modemmanager \
