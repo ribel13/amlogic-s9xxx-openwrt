@@ -186,10 +186,10 @@ rebuild_firmware() {
         xz xz-utils ziptool zoneinfo-asia zoneinfo-core php8 php8-cgi php8-mod-session \
         php8-mod-ctype php8-mod-fileinfo php8-mod-zip php8-mod-iconv php8-mod-mbstring \
         \
-        luci luci-base luci-compat luci-i18n-base-zh-cn luci-lib-base kmod-usb-net-huawei-cdc-ncm \
-        luci-lib-ip luci-lib-ipkg luci-lib-jsonc luci-lib-nixio luci-mod-admin-full luci-mod-network \
-        luci-mod-status luci-mod-system luci-proto-3g luci-proto-ipv6 netdata vnstat2 vnstati2 \
-        luci-proto-ncm luci-proto-ppp luci-proto-qmi screen ruby ruby-yaml kmod-tun \
+        luci luci-base luci-compat luci-i18n-base-zh-cn luci-lib-base kmod-usb-net-huawei-cdc-ncm kmod-mtk-t7xx \
+        luci-lib-ip luci-lib-ipkg luci-lib-jsonc luci-lib-nixio luci-mod-admin-full luci-mod-network mbim-utils \
+        luci-mod-status luci-mod-system luci-proto-3g luci-proto-ipv6 netdata vnstat2 vnstati2 luci-proto-mbim \
+        luci-proto-ncm luci-proto-ppp luci-proto-qmi screen ruby ruby-yaml kmod-tun luci-proto-quectel \
         kmod-mii kmod-usb-net kmod-usb-wdm kmod-usb-net-qmi-wwan luci-proto-qmi kmod-usb-net-cdc-ether \
         kmod-usb-serial-option kmod-usb-serial kmod-usb-serial-wwan qmi-utils kmod-usb-serial-qualcomm \
         kmod-usb-acm kmod-usb-net-cdc-ncm kmod-usb-net-cdc-mbim umbim modemmanager luci-proto-modemmanager \
