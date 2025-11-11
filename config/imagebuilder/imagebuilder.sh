@@ -177,14 +177,14 @@ rebuild_firmware() {
         base-files bash bc blkid block-mount btrfs-progs busybox bzip2 ip-full libc \
         cgi-io comgt comgt-ncm coreutils coreutils-base64 coreutils-nohup nano htop \
         curl dosfstools e2fsprogs exfat-mkfs f2fs-tools f2fsck fdisk gawk wpa-supplicant \
-        git gzip hostapd-common iconv iw iwinfo jq jshn kmod-brcmfmac kmod-brcmutil \
+        hostapd-common iw iwinfo jq jshn kmod-brcmfmac kmod-brcmutil irqbalance kmod-irqbypass \
         kmod-cfg80211 kmod-mac80211 libjson-script liblucihttp liblucihttp-lua ca-bundle \
-        losetup lsblk lscpu mkf2fs mount-utils openssl-util parted perlbase-time \
+        losetup lsblk lscpu mkf2fs mount-utils openssl-util parted perlbase-time UDPspeeder iconv \
         perl-http-date perlbase-file perlbase-getopt perlbase-unicode perlbase-utf8 fping \
         ppp ppp-mod-pppoe pv ntfs-3g tar ttyd kmod-usb2 kmod-usb-net-rndis wwan httping \
         uclient-fetch uhttpd uhttpd-mod-ubus unzip uqmi usb-modeswitch uuidgen wget-ssl \
         xz xz-utils ziptool zoneinfo-asia zoneinfo-core php8 php8-cgi php8-mod-session \
-        php8-mod-ctype php8-mod-fileinfo php8-mod-zip php8-mod-iconv php8-mod-mbstring \
+        php8-mod-ctype php8-mod-fileinfo php8-mod-zip php8-mod-iconv php8-mod-mbstring git gzip \
         \
         luci luci-base luci-compat luci-i18n-base-zh-cn luci-lib-base kmod-usb-net-huawei-cdc-ncm kmod-mtk-t7xx \
         luci-lib-ip luci-lib-ipkg luci-lib-jsonc luci-lib-nixio luci-mod-admin-full luci-mod-network mbim-utils \
