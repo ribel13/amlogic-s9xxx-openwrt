@@ -194,7 +194,7 @@ jobs:
           echo "status=success" >> ${GITHUB_OUTPUT}
 
       - name: Compile the kernel [ ${{ inputs.kernel_version }} ]
-        uses: github.com/ribel13/linux-6.6.y@main
+        uses:  github.com/Dirgha80/linux-6.6.y@main
         if: ${{ steps.pull.outputs.status }} == 'success' && !cancelled()
         with:
           build_target: kernel
