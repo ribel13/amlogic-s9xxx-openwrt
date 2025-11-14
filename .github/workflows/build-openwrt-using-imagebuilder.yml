@@ -90,7 +90,7 @@ on:
           - 5.15.y
           - 6.1.y
           - 6.6.y
-          - 6.6.108
+          - 6.6.y
           - 6.12.y
           - 5.4.y_5.10.y
           - 5.15.y_6.1.y
@@ -118,7 +118,6 @@ on:
           - stable
           - flippy
           - dev
-          - beta
       builder_name:
         description: "Set OpenWrt builder signature."
         required: false
