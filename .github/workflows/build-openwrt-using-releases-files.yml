@@ -16,7 +16,8 @@ on:
         type: choice
         options:
           - openwrt_main
-          - openwrt_openwrt-24.10
+          - openwrt_openwrt-24.10.4
+          - openwrt_openwrt-23.05.06
           - immortalwrt_master
           - immortalwrt_openwrt-24.10
           - lede_master
